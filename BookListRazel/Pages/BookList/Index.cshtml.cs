@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 
 namespace BookListRazor.Pages.BookList
-{
+{ 
     public class IndexModel : PageModel
     {
         private readonly ApplicationDBContext _db;
